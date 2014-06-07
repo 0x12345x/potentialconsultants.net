@@ -26,7 +26,7 @@ echo'<li><a href="#">Services</a>';
 echo"<ul>";
 
 
-$conn=mysqli_connect("localhost","root","")or die("could not access the server");
+$conn=mysqli_connect("localhost","consultants","ndunge")or die("could not access the server");
 mysqli_select_db($conn,"consultants")or die("could not access the database");
 
 $query="SELECT * FROM services";

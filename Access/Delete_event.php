@@ -3,7 +3,7 @@
 <body>
 <?php
 //connection to the database
-		$conn=mysqli_connect("localhost","root","")or die("could not connect to the server");
+		$conn=mysqli_connect("localhost","consultants","ndunge")or die("could not connect to the server");
 		mysqli_select_db($conn,"consultants")or die("could not access the database");
 		//creating the queries
 		if (isset($_GET['id']) && is_numeric($_GET['id']))

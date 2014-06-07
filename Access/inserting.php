@@ -1,7 +1,7 @@
 
 <?php
 //uploading images to the webserver
-$conn=mysqli_connect("localhost","root","");
+$conn=mysqli_connect("localhost","consultants","ndunge");
 mysqli_select_db($conn,"consultants");
 $query="SELECT * FROM events";
 $result=mysqli_query($conn,"$query");

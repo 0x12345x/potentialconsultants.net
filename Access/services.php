@@ -61,7 +61,7 @@
             <h1>Our Products and Services</h1>
             
            <?php //connection to the server
-$conn=mysqli_connect("localhost","root","")or die("could not access the server");
+$conn=mysqli_connect("localhost","consultants","ndunge")or die("could not access the server");
 mysqli_select_db($conn,"consultants")or die("could not access the database");
 
 $query="SELECT * FROM services";
@@ -98,7 +98,7 @@ while($row = mysqli_fetch_array( $result )) {
             <div  id="right">
             <h1>Testimonials on the services provided </h1>
             <?php //connection to the server
-$conn=mysqli_connect("localhost","root","")or die("could not access the server");
+$conn=mysqli_connect("localhost","consultants","ndunge")or die("could not access the server");
 mysqli_select_db($conn,"consultants")or die("could not access the database");
 
 $query="SELECT * FROM events";
