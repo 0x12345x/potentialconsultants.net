@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container
+{
+	width:900px;
+	margin-left:200px;
+	margin-top:0px;
+	margin-left:200px;
+}
+
+#logo {	
+		padding: 24px 0px 0px 97px;
+		height: 81px;
+}
+
+#navMenu
+{
+	margin:0;
+	padding:0;
+	
+	
+}
+#navMenu ul
+{
+	margin:0;
+	padding:0;
+	line-height:30px;
+}
+	
+	
+
+#navMenu li
+{
+	margin:0;
+	padding:o;
+	list-style:none;
+	float:left;
+	position:relative;
+	background-color:#390;
+	
+}
+#navMenu ul li a
+{
+	text-align:center;
+	text-decoration:none;
+	height:30px;
+	width:170px;
+	display:block;
+	color:#FFF;
+	border:1px solid #FFF;
+	text-shadow:1px 1px 1px #000;
+}
+#navMenu ul ul
+{
+	position:absolute;
+	visibility:hidden;
+	top:32px;
+}
+#navMenu ul li:hover ul
+{
+	visibility:visible;
+}
+#navMenu li:hover
+{
+	background-color:#F90;;
+}
+#navMenu ul li:hover ul li a:hover 
+{
+	background-color:#F90;;
+	color:#000;
+}
+#navMenu a:hover
+{
+	color:#000;
+}
+
+#leftnav
+{
+	width:170px;
+	height:800px;
+	float:left;
+	background-color:#390;
+	border-right:1px dashed #99C;
+}
+
+
+.clearFloat
+{
+	clear:both;
+	margin:0;
+	padding:0;
+}
+
+
+
+#body
+{
+	
+}
+#footer
+{
+	width:760px;
+	height:30px;
+	background-color:#666;
+	clear:both;
+}
